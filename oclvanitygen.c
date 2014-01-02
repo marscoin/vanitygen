@@ -127,7 +127,7 @@ main(int argc, char **argv)
 	int i;
 
 	while ((opt = getopt(argc, argv,
-			     "vqrikLNTX:eE:p:P:d:w:t:g:b:VSh?f:o:s:D:")) != -1) {
+			     "vqrikLMNTX:eE:p:P:d:w:t:g:b:VSh?f:o:s:D:")) != -1) {
 		switch (opt) {
 		case 'v':
 			verbose = 2;
@@ -147,6 +147,10 @@ main(int argc, char **argv)
 		case 'L':
 			addrtype = 48;
 			privtype = 176;
+			break;
+		case 'M':
+			addrtype = 50;
+			privtype = 178;
 			break;
 		case 'N':
 			addrtype = 52;

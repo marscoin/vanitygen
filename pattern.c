@@ -1405,6 +1405,10 @@ vg_prefix_context_add_patterns(vg_context_t *vcp,
 			ats = "litecoin";
 			bw = "\"L\"";
 			break;
+		case 50:
+			ats = "marscoin";
+			bw = "\"M\"";
+			break;
 		default:
 			break;
 		}

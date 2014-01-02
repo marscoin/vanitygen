@@ -391,7 +391,7 @@ main(int argc, char **argv)
 			break;
 		case 'M':
 			addrtype = 50;
-			privtype = 176;
+			privtype = 178;
 			break;
 		case 'N':
 			addrtype = 52;
