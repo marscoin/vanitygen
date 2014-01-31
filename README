@@ -1,3 +1,7 @@
+(to use with Marscoin don't forget the -M flag)
+
+=============
+
 I'd like to present a standalone command line vanity address generator 
 called vanitygen.
 
